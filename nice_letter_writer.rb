@@ -2,7 +2,7 @@ require 'erb'
 
 kids_data   = File.read('data/kids-data.txt')
 nice_letter = File.read('templates/nice_letter_template.txt.erb')
-
+toy = ['the Synthesizer', 'Bear', 'Skates', 'Sorry', 'Transformers' ]
 kids_data.each_line do |kid|
 
   kid_data_array = kid.split
